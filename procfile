@@ -1,1 +1,1 @@
-web: ROCKET_PORT=$PORT ROCKET_KEEP_ALIVE=0 ./target/release/heroku-discord-bot
+web: echo "hello world" && ROCKET_PORT=$PORT ROCKET_KEEP_ALIVE=0 ./target/release/heroku-discord-bot
