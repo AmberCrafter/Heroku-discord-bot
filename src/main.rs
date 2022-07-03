@@ -9,5 +9,6 @@ fn index() -> &'static str{
 }
 
 fn main() {
+    println!("Start the web server");
     rocket::ignite().mount("/", routes![index]).launch();
 }
